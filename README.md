@@ -45,7 +45,10 @@
  3.2. If you choose "python3 khr_ojigi_vc_ir_tv.py", the TV remote control mode appears.
       (Say "Tsukete" <Turn on in Japanese> or "Keshite" <Turn off in Japanese>)
  
- >> I've remodelded the source code of Kondo Kagaku ggot permission and uploaded here
+ For detail see this: 
+ https://www.shinya-t.tokyo/robot/khr-3hv/intelligence/
+ 
+ *** I've remodelded the source code of Kondo Kagaku ggot permission and uploaded here ***
  
  # KHR-3HV の改造 (知能化)
 
@@ -90,5 +93,7 @@
  3.2. 「python3 khr_ojigi_vc_ir_tv.py"」をエラン場合TVリモコン制御モードとなります。
       (「つけて」や「消して」と言ってください。)
  
-
->> 近藤科学さん から許可をいただいて、ソースコードを使い改造したプログラムを載せました。
+詳しくは、こちらをご参照ください。
+https://www.shinya-t.tokyo/robot/khr-3hv/intelligence/
+ 
+※※※ 近藤科学さん から許可をいただいて、ソースコードを使い改造したプログラムを載せました。 ※※※
