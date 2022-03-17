@@ -80,8 +80,9 @@
  「/Desktop/robot_kinetics.sh」の6行目か7行目に、次の文があります。
  
  1つ選んで、他をコメントアウトして下さい。
-   python3 khr_ojigi_vc_ir.py
-   python3 khr_ojigi_vc_ir_tv.py
+ 
+  python3 khr_ojigi_vc_ir.py
+  python3 khr_ojigi_vc_ir_tv.py
  
  1. 「端末」を使って、「robot_parent.sh」を動かします。
   
