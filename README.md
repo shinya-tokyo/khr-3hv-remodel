@@ -3,9 +3,9 @@
  
  Remodel Program of KHR-3HV (Humanoid Robot of Kondo Kagaku).
  
- This is the program source code of adding intelligence to KHR-3HV and make KHR-3HV recognize your voice, speek and remote controll the home electronics devices.
+ This is the program source code of adding intelligence to KHR-3HV and make KHR-3HV recognize your voice, speak and remote control the home electronics devices.
  
- After physically assemblled the KHR-3HV and tuned with the Original Software (HTH4; HeartToHeart 4),
+ After physically assembled the KHR-3HV and tuned with the Original Software (HTH4; HeartToHeart 4),
  
  You need to connect Raspberry Pi (RPi) and KHR-3HV using "DUAL USB ADAPTER HS" and "RCB4 Python Library".
  
@@ -39,7 +39,7 @@
   
  2. The Voice recognition will start.
 
- 3.1. If you choose "python3 khr_ojigi_vc_ir.py", the airconditioner remote control mode will appears.
+ 3.1. If you choose "python3 khr_ojigi_vc_ir.py", the air conditioner remote control mode will appears.
       (Say "Atsui" <Hot in Japanese> and the "Keshite" <Turn off in Japanese>)
  
  3.2. If you choose "python3 khr_ojigi_vc_ir_tv.py", the TV remote control mode appears.
