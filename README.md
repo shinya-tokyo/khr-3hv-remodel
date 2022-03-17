@@ -48,7 +48,7 @@
  For detail see this: 
  https://www.shinya-t.tokyo/robot/khr-3hv/intelligence/
  
- *** I've remodelded the source code of Kondo Kagaku ggot permission and uploaded here ***
+ *** I've remodeled the source code of Kondo Kagaku, got permission and uploaded here ***
  
  # KHR-3HV の改造 (知能化)
 
