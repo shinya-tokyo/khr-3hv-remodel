@@ -1,4 +1,4 @@
-# KHR-3HV Remodel (Add Intelligence)
+# KHR-3HV Robot Remodel (Add Intelligence)
  日本語は下へスクロールして下さい。/ For Nihongo (Japanese), scroll down.
  
  Remodel Program of KHR-3HV (Humanoid Robot of Kondo Kagaku).
@@ -49,7 +49,7 @@
  
  *** I've remodeled the source code of Kondo Kagaku, got permission and uploaded here ***
  
- # KHR-3HV の改造 (知能化)
+ # KHR-3HV ロボット の改造 (知能化)
 
  近藤科学さん の人間型ロボットであるKHR-3HVの修正版プログラムです。
  
