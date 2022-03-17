@@ -32,8 +32,7 @@
  
  Choose one and comment out the other.
  
-   python3 khr_ojigi_vc_ir.py
-   python3 khr_ojigi_vc_ir_tv.py
+ "python3 khr_ojigi_vc_ir.py" or "python3 khr_ojigi_vc_ir_tv.py"
  
  1. Run "robot_parent.sh" using the "Terminal".
   
@@ -81,8 +80,7 @@
  
  1つ選んで、他をコメントアウトして下さい。
  
-  python3 khr_ojigi_vc_ir.py
-  python3 khr_ojigi_vc_ir_tv.py
+ 「python3 khr_ojigi_vc_ir.py」 か 「python3 khr_ojigi_vc_ir_tv.py」
  
  1. 「端末」を使って、「robot_parent.sh」を動かします。
   
@@ -91,7 +89,7 @@
  3.1. 「python3 khr_ojigi_vc_ir.py」 を選んだ場合、エアコンの李顧問制御モードとなります。
       (「暑い」や「消して」と言ってください。)
  
- 3.2. 「python3 khr_ojigi_vc_ir_tv.py"」をエラン場合TVリモコン制御モードとなります。
+ 3.2. 「python3 khr_ojigi_vc_ir_tv.py」を選んだ場合、TVリモコン制御モードとなります。
       (「つけて」や「消して」と言ってください。)
  
 詳しくは、こちらをご参照ください。
