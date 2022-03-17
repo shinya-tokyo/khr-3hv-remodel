@@ -1,4 +1,6 @@
-# KHR-3HV-remodel (For Nihongo <Japanese>, scroll).
+# KHR-3HV-remodel add Intelligence
+ For Nihongo (Japanese), scroll down.
+ 
  Remodel Program of KHR-3HV (Humanoid Robot of Kondo Kagaku).
  
  This is the program source code of adding intelligence to KHR-3HV and make KHR-3HV recognize your voice, speek and remote controll the home electronics devices.
