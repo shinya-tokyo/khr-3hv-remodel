@@ -1,5 +1,5 @@
 # KHR-3HV-remodel add Intelligence
- For Nihongo (Japanese), scroll down.
+ 日本語は下へスクロールして下さい。/ For Nihongo (Japanese), scroll down.
  
  Remodel Program of KHR-3HV (Humanoid Robot of Kondo Kagaku).
  
@@ -22,9 +22,8 @@
 
  Installing RCB on RPi Desktop there will be a directory like "RCB".
  
- In "RCB" directory put "sample" directory.
- 
- put the "./khr-3hv-remodel/sample" files into it.
+ In "RCB" directory put "sample" directory, 
+ and put the "./khr-3hv-remodel/sample" files into it.
  
  <<< Usage >>>
 
@@ -38,12 +37,58 @@
  
  1. Run "robot_parent.sh" using the "Terminal".
   
- 3. The Voice recognition will start.
+ 2. The Voice recognition will start.
 
- 4.1. If you choose "python3 khr_ojigi_vc_ir.py", the airconditioner remote control mode will appears.
+ 3.1. If you choose "python3 khr_ojigi_vc_ir.py", the airconditioner remote control mode will appears.
       (Say "Atsui" <Hot in Japanese> and the "Keshite" <Turn off in Japanese>)
  
- 4.2. If you choose "python3 khr_ojigi_vc_ir_tv.py", the TV remote control mode appears.
+ 3.2. If you choose "python3 khr_ojigi_vc_ir_tv.py", the TV remote control mode appears.
       (Say "Tsukete" <Turn on in Japanese> or "Keshite" <Turn off in Japanese>)
  
-# KHR-3HV-remodel
+ >> I've remodelded the source code of Kondo Kagaku ggot permission and uploaded here
+ 
+ # KHR-3HV の改造 (知能化)
+
+ 近藤科学さん の人間型ロボットであるKHR-3HVの修正版プログラムです。
+ 
+ KHR-3HVを物理的に組み立てて、HTH4 (HeartToHeart 4) を動かした後で、
+ ラズベリーパイ(RPi)とKHR-3HVを「デュアルUSBアダプターHS」と「RCB 4 Pythonライブラリー」で接続する必要があります。
+ 
+ 近藤科学さん のホームページを見て設定して下さい。
+ 
+ 「julius」と「Open JTalk」をRPiにインストールする必要があります。
+ 
+ 
+ 次の3つのファイルをRPiの「デスクトップ」に置いて下さい。 ("/Desktop")
+ 
+ (処理が早くなるので、RPi 4の8GBがよいと思います)
+ 
+ 1. robot_parent.sh
+ 2. robot_voice_recognition.sh
+ 3. robot_kinetics.sh
+
+ RPiのデスクトップをRCBにインストールすると「RCB」ディレクトリーが出来ます。
+ 
+ 「RCB」ディレクトリーに「sample」ディレクトリーを置いて、 
+ "./khr-3hv-remodel/sample"のファイルを足して下さい。
+ 
+ <<< 使い方 >>>
+
+ 「/Desktop/robot_kinetics.sh」の6行目か7行目に、次の文があります。
+ 
+ 1つ選んで、他をコメントアウトして下さい。
+   python3 khr_ojigi_vc_ir.py
+   python3 khr_ojigi_vc_ir_tv.py
+ 
+ 1. 「端末」を使って、「robot_parent.sh」を動かします。
+  
+ 2. 音声認識が始まります。
+ 
+ 3.1. 「python3 khr_ojigi_vc_ir.py」 を選んだ場合、エアコンの李顧問制御モードとなります。
+      (「暑い」や「消して」と言ってください。)
+ 
+ 3.2. 「python3 khr_ojigi_vc_ir_tv.py"」をエラン場合TVリモコン制御モードとなります。
+      (「つけて」や「消して」と言ってください。)
+ 
+
+>> 近藤科学さん から許可をいただいて、ソースコードを使い改造したプログラムを載せました。
