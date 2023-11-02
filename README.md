@@ -96,3 +96,7 @@
 https://www.shinya-t.tokyo/robot/khr-3hv/intelligence/
  
 ※※※ 近藤科学さん から許可をいただいて、ソースコードを使い改造したプログラムを載せました。 ※※※
+
+(c) Shinya TAKEUCHI
+
+license BSD-2-Clause
